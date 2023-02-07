@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img/pinkspace.jpg") ;
+    background-position: 15% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin:0;
+    flex-flow: column;
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+main{
+    display: flex;
+    flex-flow: column;
+}
+h3 > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8%;
+    border: 2px #03413e solid;
+   
+}
+main > p{ 
+    text-align: justify;
+    color:white;
+    background-color: rgb(51, 199, 162);
+    width: 27%;
+    display: flex;
+    flex-flow: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0 0.5em 0;
+    border-radius: 15px;
+}/*
+.coordonnees p{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}*/
+
